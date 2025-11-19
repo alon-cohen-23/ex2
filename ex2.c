@@ -143,7 +143,7 @@ int main()
                 if (row_ducks==10)
                     printf("\n");
         
-                    ducks = ducks-row_ducks;
+                ducks = ducks-row_ducks;
                     
             }
             printf("\n");
