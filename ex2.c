@@ -53,8 +53,12 @@ int main()
                 scanf("%d", &n);
                 if (n < 0 || n > 63)
                     printf("Invalid number, please try again\n");
-                else
+                else {
+                    printf("you entered %d ducks\n", n);
                     break;
+                }
+                    
+                
             }
             int long long QUAK = 0;
             // Loop through all of the ducks and change their index's bit on QUAK to 1 if they Quaked
@@ -153,7 +157,7 @@ int main()
         else if (choice == 5) {
             int num;
             while (1) {
-                printf("please enter a positive number:\n");
+                printf("please enter number\n");
                 scanf("%d", &num);
                 if (num > 0)
                     break;
@@ -172,8 +176,12 @@ int main()
             }
         }
         // TASK 6: EXIT
-        else if (choice == 6)
+        else if (choice == 6) {
+            printf("Good night! See you at the pond tomorrow.\n");
             break;
+        }
+            
+        
         
     }
     return 0;
